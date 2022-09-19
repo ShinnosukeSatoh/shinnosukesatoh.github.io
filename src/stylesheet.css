@@ -297,11 +297,14 @@ h1.maintext {
     display: inline-block;
     color: #FFFFFF;
     text-decoration: none;
+    background: -webkit-linear-gradient(left, #B2FEFA, #0ED2F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .border_slide_btn2:hover {
     cursor: pointer;
-    color: #FFFFFF;
+    color: #B2FEFA;
     text-decoration: none;
 }
 
@@ -312,7 +315,7 @@ h1.maintext {
     content: '';
     width: 100%;
     height: 2px;
-    background: #FFFFFF;
+    background: #B2FEFA;
     transform: scale(0, 1);
     transform-origin: right top;
     transition: transform .2s;
