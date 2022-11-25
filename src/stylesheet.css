@@ -328,17 +328,14 @@ h1.maintext {
 
 
 /* 丸いプロフィール画像 */
-div.image_circle {
-    position: relative;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    width: 200px;
-    height: 200px;
-    background: center;
-    background-size: 200px;
-    background-position: center;
-    border-radius: 50%;
-    background-image: url(https://user-images.githubusercontent.com/96368274/188559740-da313331-9cd4-494e-92c5-86f2bc0d4b53.JPG);
+.headshot {
+    text-align: center;
+    padding: 0rem 0rem 0.75rem 0rem;
+}
+
+.headshot img {
+    max-width: 25%;
+    height: auto;
 }
 
 /* フルスクリーンスクロール */
