@@ -386,7 +386,10 @@ h1.maintext {
     position: relative;
     display: flex;
     scroll-snap-align: start;
+    /*
     background: url(img/me_at_senten.jpg) 60% no-repeat;
+    */
+    background: url(img/me_presenting.JPG) 0% no-repeat;
     background-size: cover;
     border-radius: .0rem;
     color: #FFF;
