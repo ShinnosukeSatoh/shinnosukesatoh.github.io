@@ -1,12 +1,12 @@
 body {
-    background-color: #111111;
+    background-color: #000000;
 }
 
 /*ヘッダー*/
 .site-header {
     display: flex;
     width: 100%;
-    height: 30px;
+    height: 50px;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.20);
     -webkit-backdrop-filter: saturate(120%) blur(10px);
@@ -27,6 +27,64 @@ body {
         z-index: 10000;
         border-bottom: 1px rgba(253, 253, 253, 0.20) solid;
     }
+}
+
+.c-header {
+    height: 45px;
+    pointer-events: none;
+    padding-top: 20px;
+}
+
+.c-header.-fixed {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 210;
+}
+
+.c-header_inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    padding: 0 .625rem;
+}
+
+.c-header.-fixed .c-header_inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    -webkit-backdrop-filter: saturate(200%) blur(15px);
+    backdrop-filter: blur(45px)
+}
+
+.c-header_logo {
+    position: relative;
+    margin: auto auto;
+}
+
+.c-header.-fixed .c-header_logo p {
+    color: #000;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: -0.016em;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+*,
+:before,
+:after {
+    box-sizing: inherit
 }
 
 .site-header p {
