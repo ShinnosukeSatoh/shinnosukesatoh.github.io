@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: rgb(244, 244, 244);
 }
 
 /*ヘッダー*/
@@ -60,9 +60,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 6px;
-    -webkit-backdrop-filter: saturate(200%) blur(15px);
+    background-color: rgba(251, 251, 255, 0.7);
+    border-radius: 7px;
+    -webkit-backdrop-filter: saturate(200%) blur(20px);
     backdrop-filter: blur(45px)
 }
 
@@ -85,6 +85,57 @@ body {
 :before,
 :after {
     box-sizing: inherit
+}
+
+
+.coverimage {
+    position: relative;
+    width: 100%;
+    pointer-events: none;
+    padding-top: 80px;
+    padding-bottom: 5px;
+    background-color: rgba(244, 244, 244, 1.0);
+}
+
+.coverimage_inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.coverimage .coverimage_inner::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(244, 244, 244, 0.5);
+    border-radius: 7px;
+    background: url(img/me_presenting.JPG) 60% no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.coverimage_text {
+    position: relative;
+    margin: auto auto;
+}
+
+.coverimage .coverimage_text p {
+    color: #000;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: -0.016em;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 10px;
 }
 
 .site-header p {
