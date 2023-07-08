@@ -83,7 +83,7 @@ body:after {
     border-radius: 6px;
     -webkit-backdrop-filter: saturate(300%) blur(20px);
     backdrop-filter: blur(30px);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 
 .c-header_logo {
@@ -92,7 +92,7 @@ body:after {
 }
 
 .c-header.-fixed .c-header_logo p {
-    color: rgba(254, 235, 255, .85);
+    color: rgba(255, 255, 255, .75);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 24px;
     letter-spacing: -0.016em;
