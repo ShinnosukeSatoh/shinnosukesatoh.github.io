@@ -199,18 +199,6 @@ body:after {
     background-size: cover;
 }
 
-.background2 {
-    border-radius: 10px;
-    background: url(img/me_at_goddard.jpg) 60% no-repeat;
-    background-size: cover;
-}
-
-.background3 {
-    border-radius: 10px;
-    background: url(img/me_at_senten.jpg) 60% no-repeat;
-    background-size: cover;
-}
-
 .blurA {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -238,6 +226,7 @@ body:after {
     line-height: 20px;
     font-weight: 700;
     margin-top: 10px;
+    text-align: left;
 }
 
 .coverimage .coverimage_inner .coverimage_text p {
