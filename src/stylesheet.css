@@ -80,7 +80,7 @@ body:after {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 6px;
     -webkit-backdrop-filter: saturate(120%) blur(20px);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(20px);
 }
 
 .c-header_logo {
@@ -151,8 +151,8 @@ body:after {
 .blurA {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.2);
-    -webkit-backdrop-filter: saturate(120%) blur(1px);
-    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: saturate(120%) blur(0px);
+    backdrop-filter: blur(0px);
     padding-top: 0px;
     padding-bottom: 0px;
     height: auto;
