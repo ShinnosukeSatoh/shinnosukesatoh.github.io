@@ -16,7 +16,7 @@ body:after {
     background:
         linear-gradient(30deg, #492D22 10%, #7D533C, #6F3658, #5C285F, #612A5C, #382138 90%);
     background-blend-mode: normal;
-    z-index: 0;
+    z-index: -1;
 }
 
 /*ヘッダー*/
@@ -51,14 +51,14 @@ body:after {
     height: 45px;
     pointer-events: none;
     padding-top: 20px;
-    z-index: 210;
+    z-index: 120;
 }
 
 .c-header.-fixed {
     position: fixed;
     left: 0;
     width: 100%;
-    z-index: 210;
+    z-index: 120;
 }
 
 .c-header_inner {
@@ -113,7 +113,6 @@ body:after {
     pointer-events: none;
     padding-top: 80px;
     padding-bottom: 5px;
-    z-index: 100;
 }
 
 .coverimage_inner {
