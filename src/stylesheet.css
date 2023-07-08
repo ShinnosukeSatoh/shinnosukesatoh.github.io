@@ -49,7 +49,6 @@ body:after {
 
 .c-header {
     height: 45px;
-    pointer-events: none;
     padding-top: 20px;
     z-index: 120;
 }
@@ -58,7 +57,6 @@ body:after {
     position: fixed;
     left: 0;
     width: 100%;
-    z-index: 120;
 }
 
 .c-header_inner {
@@ -106,11 +104,9 @@ body:after {
     box-sizing: inherit
 }
 
-
 .coverimage {
     position: relative;
     width: 100%;
-    pointer-events: none;
     padding-top: 80px;
     padding-bottom: 5px;
 }
