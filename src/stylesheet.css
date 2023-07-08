@@ -128,8 +128,6 @@ body:after {
     margin-right: 2%;
     margin-top: 5px;
     margin-bottom: 10px;
-    height: 60vh;
-    min-height: 240px;
 }
 
 .coverimage .coverimage_innerA::before {
@@ -138,8 +136,7 @@ body:after {
     top: 0;
     left: 0;
     border-radius: 10px;
-    height: 60vh;
-    min-height: 240px;
+    height: auto;
 }
 
 .background1 {
@@ -153,9 +150,8 @@ body:after {
     background-color: rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: saturate(120%) blur(0px);
     backdrop-filter: blur(0px);
-    padding-top: 0px;
-    padding-bottom: 0px;
-    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .coverimage_text {
@@ -164,6 +160,7 @@ body:after {
     left: 50%;
     width: 88%;
     transform: translate(-50%, -50%);
+    height: auto;
 }
 
 .coverimage p {
@@ -174,6 +171,8 @@ body:after {
     line-height: 26px;
     font-weight: 400;
     margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
     text-align: left;
 }
 
@@ -186,6 +185,22 @@ body:after {
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+}
+
+.coverimage h2 {
+    color: rgba(255, 221, 185, 0.8);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: -0.016em;
+    line-height: 37px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: left;
 }
 
