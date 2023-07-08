@@ -121,7 +121,6 @@ body:after {
 
 .coverimage_innerA {
     position: relative;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 2%;
