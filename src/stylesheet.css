@@ -154,15 +154,6 @@ body:after {
     padding-bottom: 25px;
 }
 
-.coverimage_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 88%;
-    transform: translate(-50%, -50%);
-    height: auto;
-}
-
 .coverimage p {
     color: rgba(255, 255, 255, .80);
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -185,7 +176,7 @@ body:after {
     line-height: 37px;
     font-weight: 700;
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     margin-left: 3%;
     margin-right: 3%;
     text-align: left;
@@ -203,17 +194,6 @@ body:after {
     margin-left: 2%;
     margin-right: 2%;
     text-align: left;
-}
-
-.coverimage .coverimage_inner .coverimage_text p {
-    color: #E76E57;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 24px;
-    letter-spacing: -0.016em;
-    line-height: 20px;
-    font-weight: 700;
-    margin-top: 10px;
-    text-align: center;
 }
 
 .site-header p {
