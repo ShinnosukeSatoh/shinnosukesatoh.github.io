@@ -17,7 +17,7 @@ body:after {
     background:
         linear-gradient(30deg, #492D22 10%, #7D533C, #6F3658, #5C285F, #612A5C, #382138 90%);
     background-blend-mode: normal;*/
-    background: url(img/mesh-gradient.png) 60% no-repeat;
+    background: url(img/mesh-gradient.jpg) 60% no-repeat;
     background-size: cover;
     z-index: -1;
 }
