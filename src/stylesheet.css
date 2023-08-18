@@ -115,6 +115,7 @@ body:after {
     padding-bottom: 5px;
 }
 
+/*
 .coverimage img {
     border-radius: 10px;
     width: 100%;
@@ -123,6 +124,7 @@ body:after {
     object-fit: cover;
     display: inline-block;
 }
+*/
 
 .coverimage_innerA {
     position: relative;
@@ -141,6 +143,15 @@ body:after {
     left: 0;
     border-radius: 10px;
     height: auto;
+}
+
+.coverimage_innerA img {
+    border-radius: 10px;
+    width: 100%;
+    height: 60vh;
+    min-height: 240px;
+    object-fit: cover;
+    display: inline-block;
 }
 
 .background1 {
