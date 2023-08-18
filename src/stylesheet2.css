@@ -26,6 +26,25 @@ nav li {
     margin-right: 10px;
 }
 
+.new {
+    position: relative;
+    margin-right: 20px;
+}
+
+.new::after {
+    position: absolute;
+    color: rgb(255, 51, 0);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    content: "NEW";
+    font-size: 9px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* 現在位置 */
 .index .nav-home>a,
 .pubs .nav-pubs>a {
     font-weight: 700;
@@ -38,7 +57,6 @@ nav li {
     display: inline-block;
     color: rgba(38, 52, 64, 1.0);
     text-decoration: none;
-
 }
 
 .navbtn1:hover {
