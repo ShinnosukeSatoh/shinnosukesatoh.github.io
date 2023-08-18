@@ -123,12 +123,6 @@ body {
     height: auto;
 }
 
-.background1 {
-    border-radius: 10px;
-    background: url(img/me_presenting.JPG) 60% no-repeat;
-    background-size: cover;
-}
-
 .blurA {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 1.0);
@@ -136,7 +130,7 @@ body {
     padding-bottom: 20px;
 }
 
-.blurB {
+.whitebox {
     overflow: hidden;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 1.0);
@@ -144,7 +138,7 @@ body {
     padding-bottom: 0px;
 }
 
-.blurB1 {
+.box1 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -157,7 +151,7 @@ body {
 .coverimage p {
     color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
-    font-size: 19px;
+    font-size: 17px;
     letter-spacing: -0.01em;
     line-height: 30px;
     font-weight: 500;
@@ -169,9 +163,9 @@ body {
 .coverimage h1 {
     color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     letter-spacing: -0.017em;
-    line-height: 37px;
+    line-height: 32px;
     font-weight: 700;
     margin-left: 3%;
     margin-right: 3%;
@@ -181,9 +175,9 @@ body {
 .coverimage h2 {
     color: rgba(19, 172, 228, 0.99);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     letter-spacing: -0.017em;
-    line-height: 37px;
+    line-height: 32px;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
