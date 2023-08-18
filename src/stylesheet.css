@@ -222,6 +222,11 @@ li {
     margin-right: 10px;
 }
 
+.index .nav-home>a,
+.third .nav-home>a {
+    background-color: #F06060;
+}
+
 /* ボタン */
 .navbtn1 {
     position: relative;
