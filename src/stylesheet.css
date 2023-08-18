@@ -110,8 +110,8 @@ body {
     align-items: center;
     margin-left: 2%;
     margin-right: 2%;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .coverimage .coverimage_innerA::before {
