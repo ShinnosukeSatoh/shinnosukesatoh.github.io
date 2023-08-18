@@ -1,25 +1,6 @@
 body {
     height: 100%;
-    background-color: #e8edf0;
-}
-
-body:after {
-    position: fixed;
-    /*固定配置*/
-    top: 0;
-    left: 0;
-    /*左上に固定*/
-    width: 100%;
-    height: 100%;
-    /*画面全体を覆う*/
-    content: "";
-    /*
-    background:
-        linear-gradient(30deg, #492D22 10%, #7D533C, #6F3658, #5C285F, #612A5C, #382138 90%);
-    background-blend-mode: normal;*/
-    /* background: url(img/mesh-gradient.jpg) 60% no-repeat; */
-    background-size: cover;
-    z-index: -1;
+    background-color: #E4E9EB;
 }
 
 /*ヘッダー*/
@@ -162,7 +143,7 @@ body:after {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 1.0);
     padding-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .blurB {
@@ -170,13 +151,17 @@ body:after {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 1.0);
     padding-top: 0px;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 
-.blurB2 {
-    background: linear-gradient(180deg, #15ADE4, #3c89e6);
+.blurB1 {
     padding-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.title {
+    background: linear-gradient(180deg, #ffffff, #f8fafb);
+    background-color: #EFF3F5;
 }
 
 .coverimage p {
@@ -184,38 +169,33 @@ body:after {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 20px;
     letter-spacing: -0.01em;
-    line-height: 28px;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    line-height: 30px;
+    font-weight: 500;
     margin-left: 3%;
     margin-right: 3%;
     text-align: left;
 }
 
 .coverimage h1 {
-    color: rgba(19, 172, 228, 0.99);
+    color: rgba(38, 52, 64, 0.99);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 37px;
+    font-size: 30px;
     letter-spacing: -0.017em;
     line-height: 37px;
     font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 30px;
     margin-left: 3%;
     margin-right: 3%;
     text-align: left;
 }
 
 .coverimage h2 {
-    color: rgba(255, 255, 255, 0.99);
+    color: rgba(19, 172, 228, 0.99);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     letter-spacing: -0.017em;
     line-height: 37px;
     font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
     margin-left: 3%;
     margin-right: 3%;
     text-align: left;
