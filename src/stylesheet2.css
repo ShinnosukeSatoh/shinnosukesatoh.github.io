@@ -28,7 +28,7 @@ nav li {
 
 .new {
     position: relative;
-    margin-right: 20px;
+    margin-right: 27px;
 }
 
 .new::after {
@@ -36,12 +36,13 @@ nav li {
     color: rgb(255, 51, 0);
     font-family: 'Plus Jakarta Sans', sans-serif;
     content: "NEW";
-    font-size: 9px;
+    font-size: 10px;
+    letter-spacing: -0.02em;
     font-weight: 700;
-    margin-top: 0px;
+    margin-top: -3px;
     margin-bottom: 0px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 /* 現在位置 */
