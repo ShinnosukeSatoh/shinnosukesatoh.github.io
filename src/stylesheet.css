@@ -1,7 +1,6 @@
 body {
     height: 100%;
-    background-color: #612A5C;
-    background-color: #EFF3F5;
+    background-color: #e8edf0;
 }
 
 body:after {
@@ -167,10 +166,15 @@ body:after {
 }
 
 .blurB {
+    overflow: hidden;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
-    -webkit-backdrop-filter: saturate(120%) blur(0px);
-    backdrop-filter: blur(0px);
+    background-color: rgba(255, 255, 255, 1.0);
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+.blurB2 {
+    background: linear-gradient(180deg, #15ADE4, #3c89e6);
     padding-top: 20px;
     padding-bottom: 25px;
 }
@@ -190,9 +194,9 @@ body:after {
 }
 
 .coverimage h1 {
-    color: rgba(19, 172, 228, 0.8);
+    color: rgba(19, 172, 228, 0.99);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 40px;
+    font-size: 37px;
     letter-spacing: -0.017em;
     line-height: 37px;
     font-weight: 700;
@@ -204,16 +208,16 @@ body:after {
 }
 
 .coverimage h2 {
-    color: rgba(255, 221, 185, 0.8);
+    color: rgba(255, 255, 255, 0.99);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 40px;
+    font-size: 34px;
     letter-spacing: -0.017em;
     line-height: 37px;
     font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    margin-right: 3%;
     text-align: left;
 }
 
