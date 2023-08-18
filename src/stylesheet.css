@@ -73,7 +73,7 @@ body {
 }
 
 .c-header.-fixed .c-header_logo p {
-    color: rgba(38, 52, 64, .99);
+    color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 18px;
     letter-spacing: -0.016em;
@@ -165,7 +165,7 @@ body {
 }
 
 .coverimage h2 {
-    color: rgba(19, 172, 228, 0.99);
+    color: rgba(19, 172, 228, 1.0);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 21px;
     letter-spacing: -0.017em;
