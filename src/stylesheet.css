@@ -524,16 +524,12 @@ h1.maintext {
     position: relative;
     width: auto;
     display: inline-block;
-    color: #FFFFFF;
-    text-decoration: none;
-    background: -webkit-linear-gradient(left, #B2FEFA, #0ED2F7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgba(19, 172, 228, 1.0);
 }
 
 .border_slide_btn2:hover {
     cursor: pointer;
-    color: #B2FEFA;
+    color: rgba(15, 144, 191, 1.0);
     text-decoration: none;
 }
 
@@ -544,7 +540,7 @@ h1.maintext {
     content: '';
     width: 100%;
     height: 2px;
-    background: #B2FEFA;
+    background: rgba(15, 144, 191, 1.0);
     transform: scale(0, 1);
     transform-origin: right top;
     transition: transform .2s;
