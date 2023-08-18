@@ -178,6 +178,18 @@ body {
     text-align: left;
 }
 
+/* 丸いプロフィール画像 */
+.headshot {
+    text-align: center;
+    padding: 0rem 0rem 0.75rem 0rem;
+}
+
+.headshot img {
+    max-width: 24%;
+    min-height: 0px;
+    height: auto;
+}
+
 @media only screen and (min-width:720px) {
     .c-header {
         height: 45px;
@@ -232,6 +244,12 @@ body {
 
     .coverimage h2 {
         font-size: 27px;
+    }
+
+    .headshot img {
+        max-width: 20%;
+        min-height: 0px;
+        height: auto;
     }
 }
 
@@ -537,24 +555,6 @@ h1.maintext {
     transform: scale(1, 1);
 }
 
-
-/* 丸いプロフィール画像 */
-.headshot {
-    text-align: center;
-    padding: 0rem 0rem 0.75rem 0rem;
-}
-
-.headshot img {
-    max-width: 15%;
-    height: auto;
-}
-
-@media only screen and (max-width:992px) {
-    .headshot img {
-        max-width: 24%;
-        height: auto;
-    }
-}
 
 /* フルスクリーンスクロール */
 .wrap {
