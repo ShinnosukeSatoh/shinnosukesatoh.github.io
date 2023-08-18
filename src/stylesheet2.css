@@ -1,627 +1,66 @@
-body {
-    background-color: #111111;
+/* ナビ */
+nav {
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
-/*ヘッダー*/
-.site-header {
+nav ul {
     display: flex;
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.20);
-    -webkit-backdrop-filter: saturate(120%) blur(10px);
-    backdrop-filter: saturate(120%) blur(10px);
-    z-index: 10000;
-    border-bottom: 1px rgba(253, 253, 253, 0.20) solid;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-@media only screen and (min-width:992px) {
-    .site-header {
-        display: flex;
-        width: 100%;
-        height: 50px;
-        position: fixed;
-        background-color: rgba(0, 0, 0, 0.20);
-        -webkit-backdrop-filter: saturate(120%) blur(10px);
-        backdrop-filter: saturate(120%) blur(10px);
-        z-index: 10000;
-        border-bottom: 1px rgba(253, 253, 253, 0.20) solid;
-    }
-}
-
-.site-header p {
-    color: #FFF;
-    font-family: 'EB Garamond', serif;
-    font-size: 16px;
-    letter-spacing: -0.015em;
-    line-height: 20px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-right: 5px;
-}
-
-@media only screen and (min-width:992px) {
-    .site-header p {
-        color: #FFF;
-        font-family: 'EB Garamond', serif;
-        font-size: 22px;
-        letter-spacing: -0.020em;
-        line-height: 38px;
-        font-weight: 700;
-        margin-top: 5px;
-        margin-right: 14px;
-    }
-}
-
-/*フッター*/
-.site-footer {
-    display: flex;
-    width: 100%;
-    height: 32px;
-    position: fixed;
-    bottom: 1%;
-    z-index: 10000;
-}
-
-.site-footer p {
-    color: #FFF;
-    font-family: 'EB Garamond', serif;
-    font-size: 11px;
-    letter-spacing: -0.015em;
-    line-height: 20px;
-    margin-top: 5px;
-    margin-right: 5px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.0);
-    -webkit-backdrop-filter: saturate(120%) blur(10px);
-    backdrop-filter: saturate(120%) blur(10px);
-}
-
-/*各ページの見出し*/
-p.jmb1 {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -0.033em;
-    font-size: 4vw;
-    font-weight: 700;
-    color: #FFF;
-    text-indent: -0.03em;
-    line-height: 1;
-    position: relative;
-}
-
-@media only screen and (max-width:992px) {
-    p.jmb1 {
-        font-family: 'EB Garamond', serif;
-        letter-spacing: -0.020em;
-        font-size: 36px;
-        color: #FFF;
-        text-indent: -0.03em;
-        line-height: 1;
-        position: relative;
-    }
-}
-
-p.jmb1btn {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -0.033em;
-    font-size: 27px;
-    font-weight: 700;
-    color: #FFF;
-    text-indent: -0.03em;
-    line-height: 1;
-    padding: 0.4rem 0rem 0rem 0rem;
-    position: relative;
-}
-
-@media only screen and (max-width:992px) {
-    p.jmb1btn {
-        font-family: 'EB Garamond', serif;
-        letter-spacing: -0.020em;
-        font-size: 19px;
-        color: #FFF;
-        text-indent: -0.03em;
-        line-height: 1;
-        padding: 0.4rem 0rem 0rem 0rem;
-        position: relative;
-    }
-}
-
-p.jmb2 {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -0.033em;
-    font-size: 6.2vw;
-    font-weight: 700;
-    color: #FFF;
-    text-indent: -0.03em;
-    line-height: 1;
-    position: relative;
-    top: 60%;
-}
-
-@media only screen and (max-width:992px) {
-    p.jmb2 {
-        font-family: 'EB Garamond', serif;
-        letter-spacing: -0.020em;
-        font-size: 48px;
-        color: #FFF;
-        text-indent: -0.03em;
-        line-height: 1;
-        position: relative;
-    }
-}
-
-p.jmb2btn {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -0.033em;
-    font-size: 32px;
-    font-weight: 700;
-    color: #FFF;
-    text-indent: -0.03em;
-    line-height: 1;
-    position: relative;
-    top: 60%;
-}
-
-@media only screen and (max-width:992px) {
-    p.jmb2btn {
-        font-family: 'EB Garamond', serif;
-        letter-spacing: -0.020em;
-        font-size: 24px;
-        color: #FFF;
-        text-indent: -0.03em;
-        line-height: 1;
-        position: relative;
-    }
-}
-
-
-/*メインの文章の設定*/
-p.maintext {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -0.033em;
-    font-size: 16px;
-    font-weight: 400;
-    color: #FFF;
-    text-indent: -0.03em;
-    line-height: 1;
-    position: relative;
-}
-
-h1.maintext {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -0.033em;
-    font-size: 30px;
-    font-weight: 700;
-    color: #FFF;
-    text-indent: -0.03em;
-    line-height: 1;
-    padding: 2.5rem 0rem 1rem 0rem;
-    position: relative;
-}
-
-
-/*コンテナの基本設定*/
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
-}
-
-@media (min-width: 1260px) {
-
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        max-width: 1250px;
-    }
-}
-
-/*カラムの中のボックス*/
-.container p:lang(en) {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -0.020em;
-    font-size: 16px;
-    font-weight: 400;
-    color: #FFF;
-    text-indent: -0.03em;
-    line-height: 1.5;
-    position: relative;
-}
-
-.container p:lang(jp) {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -0.020em;
+nav li {
+    list-style: none;
+    color: rgba(38, 52, 64, 1.0);
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 15px;
-    font-weight: 400;
-    color: #FFF;
-    text-indent: -0.03em;
-    line-height: 1.5;
-    position: relative;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-/*ボタン*/
-.border_slide_btn0 {
+.index .nav-home>a,
+.pubs .nav-pubs>a {
+    font-weight: 700;
+}
+
+/* ボタン */
+.navbtn1 {
     position: relative;
     width: auto;
     display: inline-block;
-    color: #FFFFFF;
+    color: rgba(38, 52, 64, 1.0);
     text-decoration: none;
 
 }
 
-.border_slide_btn0:hover {
+.navbtn1:hover {
     cursor: pointer;
-    color: #FFFFFF;
+    color: rgba(38, 52, 64, 1.0);
     text-decoration: none;
 }
 
-.border_slide_btn0::after {
+.navbtn1::after {
     position: absolute;
-    bottom: -0.275em;
+    bottom: -0.1em;
     left: 0;
     content: '';
     width: 100%;
-    height: 2px;
-    background: #FFFFFF;
+    height: 1.7px;
+    background: rgba(38, 52, 64, 1.0);
     transform: scale(0, 1);
     transform-origin: right top;
     transition: transform .2s;
 }
 
-.border_slide_btn0:hover::after {
+.navbtn1:hover::after {
     transform-origin: left top;
     transform: scale(1, 1);
-}
-
-/*ボタン1*/
-.border_slide_btn1 {
-    position: relative;
-    width: auto;
-    display: inline-block;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.border_slide_btn1:hover {
-    cursor: pointer;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-/*ボタン2*/
-.border_slide_btn2 {
-    position: relative;
-    width: auto;
-    display: inline-block;
-    color: #FFFFFF;
-    text-decoration: none;
-    background: -webkit-linear-gradient(left, #B2FEFA, #0ED2F7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.border_slide_btn2:hover {
-    cursor: pointer;
-    color: #B2FEFA;
-    text-decoration: none;
-}
-
-.border_slide_btn2::after {
-    position: absolute;
-    bottom: 0.1em;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #B2FEFA;
-    transform: scale(0, 1);
-    transform-origin: right top;
-    transition: transform .2s;
-}
-
-.border_slide_btn2:hover::after {
-    transform-origin: left top;
-    transform: scale(1, 1);
-}
-
-
-/* 丸いプロフィール画像 */
-.headshot {
-    text-align: center;
-    padding: 0rem 0rem 0.75rem 0rem;
-}
-
-.headshot img {
-    max-width: 15%;
-    height: auto;
-}
-
-@media only screen and (max-width:992px) {
-    .headshot img {
-        max-width: 24%;
-        height: auto;
-    }
-}
-
-/* フルスクリーンスクロール */
-.wrap {
-    scroll-behavior: smooth;
-    overflow: scroll;
-    /* .wrap内をスクロール可能にする。必要です */
-    scroll-snap-type: y mandatory;
-    /* 縦軸にスナップさせる */
-    width: 100vw;
-    /* 横幅を画面いっぱいに */
-    max-height: 100vh;
-    overflow-y: scroll;
-}
-
-.section {
-    position: relative;
-    display: flex;
-    scroll-snap-align: start;
-    background: url(https://user-images.githubusercontent.com/96368274/188843993-14b4b5a1-48f8-446d-ae37-19b21cf3aeaa.jpg) 45% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    height: 100vh;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-92)::before {
-    background-color: rgba(0, 0, 0, .6);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 1ページ目の背景 */
-.section:nth-of-type(99n-98) {
-    position: relative;
-    display: flex;
-    scroll-snap-align: start;
-    background: url(img/me_at_senten.jpg) 60% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 4.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-/* 2ページ目の背景 */
-.section:nth-of-type(99n-97) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/me_at_goddard.jpg) 73% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-97)::before {
-    background-color: rgba(0, 0, 0, .65);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 3ページ目の背景 */
-.section:nth-of-type(99n-96) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/atlantis.jpg) 50% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-96)::before {
-    background-color: rgba(0, 0, 0, .60);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 4ページ目の背景 */
-.section:nth-of-type(99n-95) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/c_complex_tohoku_u.jpg) 35% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-95)::before {
-    background-color: rgba(0, 0, 0, .63);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 5ページ目の背景 */
-.section:nth-of-type(99n-94) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/shinjuku_gyoen.jpg) 28% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-94)::before {
-    background-color: rgba(0, 0, 0, .63);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 6ページ目の背景 */
-.section:nth-of-type(99n-93) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/me_at_senten2.jpg) 73% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 3rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-93)::before {
-    background-color: rgba(0, 0, 0, .60);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 7ページ目の背景 */
-.section:nth-of-type(99n-92) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/discovery.jpg) 65% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-92)::before {
-    background-color: rgba(0, 0, 0, .70);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 8ページ目の背景 */
-.section:nth-of-type(99n-91) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/me_at_cathedral.jpg) 50% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-91)::before {
-    background-color: rgba(0, 0, 0, .65);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 9ページ目の背景 */
-.section:nth-of-type(99n-90) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/iitate.jpg) 45% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-90)::before {
-    background-color: rgba(0, 0, 0, .45);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 10ページ目の背景 */
-.section:nth-of-type(99n-89) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/my_favorite_stuff.jpg) 48% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section:nth-of-type(99n-89)::before {
-    background-color: rgba(0, 0, 0, .5);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    content: ' ';
-}
-
-/* 11ページ目の背景 */
-.section:nth-of-type(99n-88) {
-    position: relative;
-    scroll-snap-align: start;
-    background: url(img/me_at_senten.jpg) 60% no-repeat;
-    background-size: cover;
-    border-radius: .0rem;
-    color: #FFF;
-    padding: 2.5rem 0rem 4rem 0rem;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
 }
