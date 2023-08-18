@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background-color: #E4E9EB;
+    background-color: rgba(19, 172, 228, 0.99);
 }
 
 /*ヘッダー*/
@@ -90,6 +90,7 @@ body {
 
 .coverimage {
     position: relative;
+    background-color: #E4E9EB;
     width: 100%;
     padding-top: 80px;
     padding-bottom: 5px;
