@@ -1,6 +1,7 @@
 body {
     height: 100%;
     background-color: #612A5C;
+    background-color: #EFF3F5;
 }
 
 body:after {
@@ -17,7 +18,7 @@ body:after {
     background:
         linear-gradient(30deg, #492D22 10%, #7D533C, #6F3658, #5C285F, #612A5C, #382138 90%);
     background-blend-mode: normal;*/
-    background: url(img/mesh-gradient.jpg) 60% no-repeat;
+    /* background: url(img/mesh-gradient.jpg) 60% no-repeat; */
     background-size: cover;
     z-index: -1;
 }
@@ -29,8 +30,8 @@ body:after {
     height: 50px;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.20);
-    -webkit-backdrop-filter: saturate(120%) blur(10px);
-    backdrop-filter: saturate(120%) blur(10px);
+    -webkit-backdrop-filter: saturate(170%) blur(10px);
+    backdrop-filter: saturate(170%) blur(10px);
     border-bottom: 1px rgba(253, 253, 253, 0.20) solid;
     z-index: 220;
 }
@@ -42,8 +43,8 @@ body:after {
         height: 50px;
         position: fixed;
         background-color: rgba(0, 0, 0, 0.20);
-        -webkit-backdrop-filter: saturate(120%) blur(10px);
-        backdrop-filter: saturate(120%) blur(10px);
+        -webkit-backdrop-filter: saturate(170%) blur(10px);
+        backdrop-filter: saturate(170%) blur(10px);
         z-index: 10000;
         border-bottom: 1px rgba(253, 253, 253, 0.20) solid;
         z-index: 220;
@@ -80,10 +81,10 @@ body:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 6px;
-    -webkit-backdrop-filter: saturate(120%) blur(20px);
-    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: saturate(200%) blur(20px);
+    backdrop-filter: saturate(200%) blur(20px);
 }
 
 .c-header_logo {
@@ -92,7 +93,7 @@ body:after {
 }
 
 .c-header.-fixed .c-header_logo p {
-    color: rgba(255, 255, 255, .95);
+    color: rgba(38, 52, 64, .99);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 24px;
     letter-spacing: -0.016em;
@@ -149,6 +150,13 @@ body:after {
 
 .blurA {
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1.0);
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.blurB {
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: saturate(120%) blur(0px);
     backdrop-filter: blur(0px);
@@ -157,13 +165,13 @@ body:after {
 }
 
 .coverimage p {
-    color: rgba(255, 255, 255, .80);
+    color: rgba(38, 52, 64, 0.8);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     letter-spacing: -0.01em;
-    line-height: 27px;
+    line-height: 28px;
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 5px;
     margin-left: 3%;
     margin-right: 3%;
@@ -171,7 +179,7 @@ body:after {
 }
 
 .coverimage h1 {
-    color: rgba(255, 221, 185, 0.8);
+    color: rgba(19, 172, 228, 0.8);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 40px;
     letter-spacing: -0.017em;
