@@ -32,7 +32,7 @@ body {
 }
 
 .c-header {
-    height: 45px;
+    height: 30px;
     padding-top: 20px;
     z-index: 120;
 }
@@ -75,11 +75,11 @@ body {
 .c-header.-fixed .c-header_logo p {
     color: rgba(38, 52, 64, .99);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: -0.016em;
-    line-height: 24px;
+    line-height: 20px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 *,
@@ -92,7 +92,7 @@ body {
     position: relative;
     background-color: #E4E9EB;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 65px;
     padding-bottom: 5px;
 }
 
@@ -151,9 +151,9 @@ body {
 .coverimage p {
     color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: -0.01em;
-    line-height: 30px;
+    line-height: 160%;
     font-weight: 500;
     margin-left: 3%;
     margin-right: 3%;
@@ -163,9 +163,9 @@ body {
 .coverimage h1 {
     color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 27px;
+    font-size: 21px;
     letter-spacing: -0.017em;
-    line-height: 32px;
+    line-height: 100%;
     font-weight: 700;
     margin-left: 3%;
     margin-right: 3%;
@@ -175,9 +175,9 @@ body {
 .coverimage h2 {
     color: rgba(19, 172, 228, 0.99);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 27px;
+    font-size: 21px;
     letter-spacing: -0.017em;
-    line-height: 32px;
+    line-height: 100%;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -254,6 +254,62 @@ li {
     transform-origin: left top;
     transform: scale(1, 1);
 }
+
+
+
+@media only screen and (min-width:720px) {
+    .c-header {
+        height: 45px;
+        padding-top: 20px;
+        z-index: 120;
+    }
+
+    .c-header_inner {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+
+    .c-header.-fixed .c-header_logo p {
+        color: rgba(38, 52, 64, .99);
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 24px;
+        letter-spacing: -0.016em;
+        line-height: 24px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .coverimage {
+        position: relative;
+        background-color: #E4E9EB;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 5px;
+    }
+
+    .coverimage_innerA {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .coverimage p {
+        font-size: 17px;
+    }
+
+    .coverimage h1 {
+        font-size: 27px;
+    }
+
+    .coverimage h2 {
+        font-size: 27px;
+    }
+}
+
+
 
 
 /* 古い */
