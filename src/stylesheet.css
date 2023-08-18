@@ -213,7 +213,7 @@ li {
     list-style: none;
     color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: -0.01em;
     font-weight: 500;
     margin-top: 0px;
@@ -224,7 +224,7 @@ li {
 
 .index .nav-home>a,
 .third .nav-home>a {
-    background-color: #F06060;
+    font-weight: 700;
 }
 
 /* ボタン */
@@ -249,7 +249,7 @@ li {
     left: 0;
     content: '';
     width: 100%;
-    height: 1.5px;
+    height: 1.7px;
     background: rgba(38, 52, 64, 1.0);
     transform: scale(0, 1);
     transform-origin: right top;
