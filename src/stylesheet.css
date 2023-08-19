@@ -141,12 +141,30 @@ body {
 .box1 {
     padding-top: 6px;
     padding-bottom: 6px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .title {
     background-color: #f8fafb;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.box ul {
+    padding-inline-start: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #306079;
+}
+
+.box1 li {
+    /* list-style: none; */
+    color: rgba(38, 52, 64, 1.0);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
 }
 
 .coverimage p {
@@ -158,8 +176,6 @@ body {
     font-weight: 500;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 3%;
-    margin-right: 3%;
     text-align: left;
 }
 
@@ -181,8 +197,6 @@ p.p1 {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 3%;
-    margin-right: 3%;
     text-align: center;
 }
 
@@ -195,8 +209,6 @@ p.p1 {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 3%;
-    margin-right: 3%;
     text-align: left;
 }
 
