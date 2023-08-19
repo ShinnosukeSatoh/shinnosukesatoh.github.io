@@ -47,7 +47,7 @@ nav li {
 
 /* 現在位置 */
 .index .nav-home>a,
-.publications .nav-pubs>a,
+.pubs .nav-pubs>a,
 .contacts .nav-contacts>a {
     font-weight: 700;
 }
