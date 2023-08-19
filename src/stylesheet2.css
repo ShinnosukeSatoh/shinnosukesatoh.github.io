@@ -84,3 +84,56 @@ nav li {
     transform-origin: left top;
     transform: scale(1, 1);
 }
+
+
+/* アコーディオン */
+.switch {
+    display: none;
+}
+
+.openclose {
+    color: rgba(38, 52, 64, 1.0);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    line-height: 160%;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: right;
+    cursor: pointer;
+    display: block;
+}
+
+.openclose:hover {
+    color: rgba(16, 70, 134, 1.0);
+}
+
+.openclose::before {
+    content: "Show all";
+}
+
+.switch:checked+.openclose::before {
+    content: "Show less";
+}
+
+.more {
+    height: 160px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.switch:checked~.more {
+    height: auto;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
