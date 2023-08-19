@@ -141,8 +141,6 @@ body {
 .box1 {
     padding-top: 6px;
     padding-bottom: 6px;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
 .title {
@@ -165,27 +163,41 @@ body {
     font-weight: 500;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
-
-label {
+.openclose {
+    color: rgba(38, 52, 64, 1.0);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    line-height: 160%;
+    font-weight: 500;
+    margin-left: 3%;
+    margin-right: 3%;
     text-align: right;
-    font-size: .8125rem;
-    margin-top: 15px;
-    font-weight: bold;
     cursor: pointer;
     display: block;
 }
 
-label:before {
-    content: "＋  ";
+.openclose:before {
+    content: '';
+    width: 20px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%) rotate(90deg);
+    transition: .5s;
 }
 
-checked+label:before {
-    content: "－  ";
+.switch:checked+.openclose:before {
+    transform: translateY(-50%) rotate(0);
 }
 
-input {
+.switch {
     display: none;
 }
 
@@ -196,7 +208,7 @@ input {
     padding: 0;
 }
 
-input:checked~.more {
+.switch:checked~.more {
     height: auto;
 }
 
@@ -222,6 +234,8 @@ input:checked~.more {
     font-weight: 500;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
     text-align: left;
 }
 
@@ -255,6 +269,8 @@ p.p1 {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
     text-align: left;
 }
 
