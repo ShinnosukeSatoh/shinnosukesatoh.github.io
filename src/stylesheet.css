@@ -186,7 +186,7 @@ body {
 /* 丸いプロフィール画像 */
 .headshot {
     text-align: center;
-    padding: 0rem 0rem 0.75rem 0rem;
+    padding: 0.8rem 0rem 1.2rem 0rem;
 }
 
 .headshot img {
