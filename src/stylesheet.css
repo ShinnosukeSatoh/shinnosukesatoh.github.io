@@ -151,11 +151,8 @@ body {
     padding-bottom: 15px;
 }
 
-.box ul {
-    padding-inline-start: 0px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #306079;
+.box1 ul {
+    padding-left: 3%;
 }
 
 .box1 li {
@@ -164,8 +161,57 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 15px;
     letter-spacing: -0.01em;
+    line-height: 160%;
     font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+
+label {
+    text-align: right;
+    font-size: .8125rem;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+
+label:before {
+    content: "＋  ";
+}
+
+checked+label:before {
+    content: "－  ";
+}
+
+input {
+    display: none;
+}
+
+.more {
+    height: 160px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+input:checked~.more {
+    height: auto;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+
+
 
 .coverimage p {
     color: rgba(38, 52, 64, 1.0);
