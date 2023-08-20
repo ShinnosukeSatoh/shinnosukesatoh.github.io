@@ -123,6 +123,7 @@ nav li {
 }
 
 .more {
+    display: block;
     list-style-position: inside;
     height: 200px;
     overflow: hidden;
@@ -131,6 +132,7 @@ nav li {
     margin-left: 3%;
     margin-right: 3%;
 }
+
 
 .licontents {
     /* list-style: none; */
