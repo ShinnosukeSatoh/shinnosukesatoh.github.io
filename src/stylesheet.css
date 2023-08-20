@@ -153,6 +153,12 @@ body {
     padding-bottom: 15px;
 }
 
+.LED {
+    background-color: #242424;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .coverimage p {
     color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
@@ -200,6 +206,26 @@ p.p1 {
     margin-left: 3%;
     margin-right: 3%;
     text-align: left;
+}
+
+@font-face {
+    font-family: "NYCSIGN";
+    src: url(font/nycsign.woff) format('woff');
+}
+
+h2.nyc {
+    color: rgb(239, 24, 0);
+    background-color: #000000;
+    font-family: "NYCSIGN", sans-serif;
+    font-size: 21px;
+    letter-spacing: -0.017em;
+    line-height: 100%;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
 }
 
 /* 丸いプロフィール画像 */
