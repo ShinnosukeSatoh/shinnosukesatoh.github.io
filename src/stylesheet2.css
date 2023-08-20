@@ -92,14 +92,17 @@ nav li {
 }
 
 .openclose {
-    background-color: brown;
+    background-color: rgba(255, 182, 182, 0.1);
+    border-radius: 6px;
+    -webkit-backdrop-filter: saturate(200%) blur(2px);
+    backdrop-filter: saturate(200%) blur(2px);
     color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 14px;
     letter-spacing: -0.01em;
     line-height: 160%;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 15px;
     margin-left: 3%;
     margin-right: 3%;
