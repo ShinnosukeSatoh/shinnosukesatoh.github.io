@@ -160,3 +160,9 @@ nav li {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
 }
+
+@media only screen and (min-width:720px) {
+    .licontents {
+        font-size: 17px;
+    }
+}
