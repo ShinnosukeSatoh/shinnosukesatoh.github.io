@@ -93,19 +93,17 @@ nav li {
 
 .openclose {
     position: absolute;
-    border: 1.5px rgba(228, 233, 235, 1.0) solid;
-    border: 1.5px rgba(19, 172, 228, 1.0) solid;
-    background-color: rgba(255, 255, 255, 0.9);
+    border-top: 1.5px rgba(228, 233, 235, 1.0) solid;
+    background-color: rgba(255, 255, 255, 0.8);
 
-    -webkit-backdrop-filter: saturate(300%) blur(2.6px);
-    backdrop-filter: saturate(300%) blur(2.6px);
+    -webkit-backdrop-filter: saturate(300%) blur(4px);
+    backdrop-filter: saturate(300%) blur(4px);
 
-    width: 40%;
-
+    width: 100%;
     left: 50%;
     transform: translate(-50%, 0%);
 
-    border-radius: 50px;
+    border-radius: 0px 0px 10px 10px;
 
     color: rgba(19, 172, 228, 1.0);
     /*color: rgba(38, 52, 64, 1.0);*/
@@ -116,11 +114,11 @@ nav li {
     font-weight: 700;
 
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: -6px;
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
 
     text-align: center;
     cursor: pointer;
@@ -128,9 +126,8 @@ nav li {
 }
 
 .openclose:hover {
-    border: 1.5px rgba(54, 201, 255, 1.0) solid;
     color: rgb(54, 201, 255);
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .openclose::before {
