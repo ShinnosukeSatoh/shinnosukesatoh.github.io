@@ -92,7 +92,6 @@ nav li {
 }
 
 .openclose {
-    overflow: hidden;
     position: absolute;
     border-top: 1px rgba(228, 233, 235, 1.0) solid;
     background-color: rgba(255, 255, 255, 0.75);
@@ -120,7 +119,7 @@ nav li {
 
     text-align: center;
     cursor: pointer;
-    display: block;
+    display: inline;
 }
 
 .openclose:hover {
