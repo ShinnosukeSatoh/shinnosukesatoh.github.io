@@ -92,8 +92,8 @@ nav li {
 }
 
 .openclose {
-    border-top: 1px #E4E9EB solid;
-    background-color: #f8fafb;
+    border-top: 1px rgba(228, 233, 235, 1.0) solid;
+    background-color: rgba(248, 250, 251, 1.0);
     color: rgba(19, 172, 228, 1.0);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 14px;
