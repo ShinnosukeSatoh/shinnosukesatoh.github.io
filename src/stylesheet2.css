@@ -116,6 +116,9 @@ nav li {
 
 .openclose::before {
     content: "Show all";
+    /*background-color: rgb(20, 126, 180);
+    padding-top: 20px;
+    padding-bottom: 20px;*/
 }
 
 .switch:checked+.openclose::before {
