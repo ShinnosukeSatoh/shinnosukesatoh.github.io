@@ -123,8 +123,8 @@ body {
 }
 
 .whitebox {
-    overflow: hidden;
     position: relative;
+    overflow-x: hidden;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 1.0);
     padding-top: 0px;
@@ -132,7 +132,7 @@ body {
 }
 
 .bluebox {
-    overflow: hidden;
+    overflow-x: hidden;
     border-radius: 10px;
     background-color: rgba(16, 70, 134, 1.0);
     padding-top: 0px;

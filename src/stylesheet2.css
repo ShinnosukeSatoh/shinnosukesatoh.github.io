@@ -93,29 +93,34 @@ nav li {
 
 .openclose {
     position: absolute;
-    border-top: 1px rgba(228, 233, 235, 1.0) solid;
-    background-color: rgba(255, 255, 255, 0.75);
-    -webkit-backdrop-filter: saturate(300%) blur(2.8px);
-    backdrop-filter: saturate(300%) blur(2.8px);
+    border: 1.5px rgba(228, 233, 235, 1.0) solid;
+    border: 1.5px rgba(19, 172, 228, 1.0) solid;
+    background-color: rgba(255, 255, 255, 0.9);
 
-    /*left: 50%;
-    transform: translate(-50%, 0%);*/
+    -webkit-backdrop-filter: saturate(300%) blur(2.6px);
+    backdrop-filter: saturate(300%) blur(2.6px);
 
-    width: 100%;
+    width: 40%;
+
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    border-radius: 50px;
 
     color: rgba(19, 172, 228, 1.0);
-    color: rgba(38, 52, 64, 1.0);
+    /*color: rgba(38, 52, 64, 1.0);*/
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 14px;
     letter-spacing: -0.01em;
-    line-height: 280%;
+    line-height: 320%;
     font-weight: 700;
 
     margin-top: 0px;
-    margin-bottom: -6px;
+    margin-bottom: 5px;
     padding-top: 0px;
     padding-bottom: 0px;
-
+    padding-left: 24px;
+    padding-right: 24px;
 
     text-align: center;
     cursor: pointer;
@@ -123,8 +128,9 @@ nav li {
 }
 
 .openclose:hover {
-    color: rgb(84, 113, 141);
-    background-color: rgba(255, 255, 255, 0.85);
+    border: 1.5px rgba(54, 201, 255, 1.0) solid;
+    color: rgb(54, 201, 255);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .openclose::before {
@@ -144,7 +150,7 @@ nav li {
     height: 250px;
     overflow: hidden;
     padding-left: 0px;
-    margin-bottom: 0px;
+    margin-bottom: -6px;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -171,7 +177,7 @@ nav li {
 
 .switch:checked~.more {
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .flex {
