@@ -152,26 +152,6 @@ nav li {
     margin-right: 3%;
 }
 
-
-.licontents {
-    /* list-style: none; */
-    color: rgba(38, 52, 64, 1.0);
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 15px;
-    letter-spacing: -0.01em;
-    line-height: 160%;
-    font-weight: 500;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    /*margin-left: 10em;
-    text-indent: -10em;*/
-}
-
-.licontents:before {
-    content: "";
-    padding-right: 10px;
-}
-
 .switch:checked~.more {
     height: auto;
     margin-bottom: 45px;
@@ -191,4 +171,23 @@ nav li {
     .licontents {
         font-size: 17px;
     }
+}
+
+.licontents {
+    /* list-style: none; */
+    color: rgba(38, 52, 64, 1.0);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    line-height: 160%;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*margin-left: 10em;
+    text-indent: -10em;*/
+}
+
+.licontents:before {
+    content: "";
+    padding-right: 10px;
 }
