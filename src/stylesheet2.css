@@ -85,6 +85,9 @@ nav li {
     transform: scale(1, 1.5);
 }
 
+.navbtn1:active {
+    color: rgba(38, 52, 64, 0.7);
+}
 
 /* アコーディオン */
 .switch {
@@ -92,6 +95,8 @@ nav li {
 }
 
 .openclose {
+    z-index: 10;
+
     position: absolute;
     border-top: 1.5px rgba(228, 233, 235, 1.0) solid;
     background-color: rgba(255, 255, 255, 0.8);
@@ -128,6 +133,10 @@ nav li {
 .openclose:hover {
     color: rgb(54, 201, 255);
     background-color: rgba(255, 255, 255, 0.85);
+}
+
+.openclose:active {
+    color: rgba(54, 201, 255, 0.7);
 }
 
 .openclose::before {

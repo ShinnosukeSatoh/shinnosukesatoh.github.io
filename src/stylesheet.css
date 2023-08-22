@@ -596,6 +596,11 @@ h1.maintext {
     transform: scale(1, 1);
 }
 
+.border_slide_btn2:active {
+    cursor: pointer;
+    color: rgba(54, 201, 255, 0.7);
+    text-decoration: none;
+}
 
 /* フルスクリーンスクロール */
 .wrap {
