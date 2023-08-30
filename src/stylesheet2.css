@@ -200,3 +200,17 @@ nav li {
     content: "";
     padding-right: 10px;
 }
+
+/* マウスホバーで画像を拡大する */
+.zoomimg {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.zoomimg img {
+    transition: 0.3s all;
+}
+
+.zoomimg img:hover {
+    transform: scale(1.08, 1.08);
+}

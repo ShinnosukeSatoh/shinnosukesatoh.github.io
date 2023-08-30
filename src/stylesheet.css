@@ -61,10 +61,10 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 6px;
-    -webkit-backdrop-filter: saturate(200%) blur(20px);
-    backdrop-filter: saturate(200%) blur(20px);
+    -webkit-backdrop-filter: saturate(200%) blur(10px) brightness(120%);
+    backdrop-filter: saturate(200%) blur(10px) brightness(120%);
 }
 
 .c-header_logo {
@@ -97,6 +97,7 @@ body {
 }
 
 .coverimage img {
+    overflow-x: hidden;
     border-radius: 10px;
     width: 100%;
     height: 32vh;
