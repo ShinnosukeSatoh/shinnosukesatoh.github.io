@@ -63,8 +63,8 @@ body {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 6px;
-    -webkit-backdrop-filter: saturate(200%) blur(10px) brightness(120%);
-    backdrop-filter: saturate(200%) blur(10px) brightness(120%);
+    -webkit-backdrop-filter: saturate(160%) blur(10px) brightness(120%);
+    backdrop-filter: saturate(160%) blur(10px) brightness(120%);
 }
 
 .c-header_logo {
