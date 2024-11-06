@@ -226,7 +226,7 @@ p.p1 {
     font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
     font-size: 17px;
     letter-spacing: -0.017em;
-    line-height: 120%;
+    line-height: 110%;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -236,9 +236,9 @@ p.p1 {
 .coverimage h1.IPRT_2 {
     color: rgb(255, 255, 255);
     font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: -0.017em;
-    line-height: 120%;
+    line-height: 110%;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -352,7 +352,7 @@ h2.nyc {
     }
 
     .coverimage_innerB {
-        background: url(img/IPRT.JPG) 50% 38% no-repeat;
+        background: url(img/IPRT.JPG) 50% 39% no-repeat;
         background-size: cover;
         min-height: 100vh;
         height: auto;
