@@ -87,10 +87,10 @@ body {
 .c-header.-fixed .c-header_logo a {
     color: rgba(38, 52, 64, 1.0);
     font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: -0.016em;
     font-weight: 700;
-    margin-top: 5px;
+    margin-top: 6px;
 }
 
 *,
@@ -323,10 +323,10 @@ h2.nyc {
     .c-header.-fixed .c-header_logo a {
         color: rgba(38, 52, 64, 1.0);
         font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
-        font-size: 15px;
+        font-size: 14px;
         letter-spacing: -0.016em;
         font-weight: 700;
-        margin-top: 10px;
+        margin-top: 12px;
     }
 
     .coverimage {
@@ -352,7 +352,7 @@ h2.nyc {
     }
 
     .coverimage_innerB {
-        background: url(img/IPRT.JPG) 50% 60% no-repeat;
+        background: url(img/IPRT.JPG) 50% 38% no-repeat;
         background-size: cover;
         min-height: 100vh;
         height: auto;
