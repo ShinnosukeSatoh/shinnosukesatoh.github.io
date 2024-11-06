@@ -352,7 +352,7 @@ h2.nyc {
     }
 
     .coverimage_innerB {
-        background: url(img/IPRT.JPG) 48% no-repeat;
+        background: url(img/IPRT.JPG) 50% 60% no-repeat;
         background-size: cover;
         min-height: 100vh;
         height: auto;
