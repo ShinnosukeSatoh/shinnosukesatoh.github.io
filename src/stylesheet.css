@@ -165,6 +165,10 @@ body {
     padding-bottom: 0px;
 }
 
+.whitebox img {
+    border-radius: 10px 10px 0px 0px;
+}
+
 .bluebox {
     overflow-x: hidden;
     border-radius: 10px;
@@ -355,7 +359,7 @@ h2.nyc {
     }
 
     .coverimage_innerB {
-        background: url(img/IPRT.JPG) 50% 39% no-repeat;
+        background: url(img/IPRT.JPG) 50% 41% no-repeat;
         background-size: cover;
         min-height: 100vh;
         height: auto;
