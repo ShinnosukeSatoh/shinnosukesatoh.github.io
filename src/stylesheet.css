@@ -349,8 +349,8 @@ h2.nyc {
     }
 
     .coverimage_innerA {
-        margin-left: 8%;
-        margin-right: 8%;
+        margin-left: max(8%, 120px);
+        margin-right: max(8%, 120px);
     }
 
     .IPRT_logo {
