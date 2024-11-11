@@ -120,8 +120,8 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -349,8 +349,8 @@ h2.nyc {
     }
 
     .coverimage_innerA {
-        margin-left: max(8%, 120px);
-        margin-right: max(8%, 120px);
+        margin-left: 9%;
+        margin-right: 9%;
     }
 
     .IPRT_logo {
