@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS 6 Phone Icon</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222;
+        }
+
+        .icon {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(to bottom, #a4d157 0%, #6dbb2d 50%, #4a9500 100%);
+            border-radius: 24px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 180%;
+            height: 90%;
+            background: radial-gradient(circle at 50% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
+            transform: translateX(-50%) rotate(-10deg);
+        }
+
+        .phone-icon {
+            width: 60px;
+            height: 60px;
+            background: white;
+            -webkit-mask: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23000" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.06-.24 10.34 10.34 0 003.25.52 1 1 0 011 1v3.42a1 1 0 01-1 1 19.89 19.89 0 01-8.59-2.23A19.73 19.73 0 014.23 5.64a19.89 19.89 0 01-2.23-8.59 1 1 0 011-1H6.4a1 1 0 011 1 10.34 10.34 0 00.52 3.25 1 1 0 01-.24 1.06l-2.2 2.2z"/></svg>') center / contain no-repeat;
+            mask: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23000" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.06-.24 10.34 10.34 0 003.25.52 1 1 0 011 1v3.42a1 1 0 01-1 1 19.89 19.89 0 01-8.59-2.23A19.73 19.73 0 014.23 5.64a19.89 19.89 0 01-2.23-8.59 1 1 0 011-1H6.4a1 1 0 011 1 10.34 10.34 0 00.52 3.25 1 1 0 01-.24 1.06l-2.2 2.2z"/></svg>') center / contain no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="icon">
+        <div class="phone-icon"></div>
+    </div>
+</body>
+
+</html>
