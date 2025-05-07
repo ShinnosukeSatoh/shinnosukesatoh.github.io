@@ -156,6 +156,11 @@ body {
     padding-bottom: 30px;
 }
 
+.IPRT_logo2 {
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+
 .coverimage2 {
     position: relative;
     background-color: #E4E9EB;
@@ -188,6 +193,15 @@ body {
 .box1 {
     padding-top: 6px;
     padding-bottom: 6px;
+}
+
+.box2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .title {
@@ -235,7 +249,7 @@ p.p1 {
     text-align: center;
 }
 
-.coverimage h1.IPRT_1 {
+.coverimage h2.white {
     color: rgb(255, 255, 255);
     font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
     font-size: 17px;
@@ -247,7 +261,7 @@ p.p1 {
     text-align: center;
 }
 
-.coverimage h1.IPRT_2 {
+.coverimage h1.white {
     color: rgb(255, 255, 255);
     font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
     font-size: 40px;
@@ -271,6 +285,18 @@ p.p1 {
     margin-left: 3%;
     margin-right: 3%;
     text-align: left;
+}
+
+.coverimage h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Plus Jakarta Sans', 'BIZ UDGothic', sans-serif;
+    font-size: 25px;
+    letter-spacing: -0.017em;
+    line-height: 150%;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 @font-face {
